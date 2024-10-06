@@ -3,6 +3,9 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgb(185, 185, 185);
+    overflow-x: hidden; /* Evitar scroll horizontal */
+    width: 100vw; /* Ajusta el ancho máximo al 100% del viewport */
+    box-sizing: border-box;
 }
 
 /* Caja superior */
@@ -647,7 +650,7 @@ nav {
     .caja-banner a {
         height: auto;
         margin: -1px;
-        width: 101%;
+        width: 100%;
     }    
     
     .caja-banner img {
