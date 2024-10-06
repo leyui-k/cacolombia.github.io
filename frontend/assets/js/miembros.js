@@ -8,7 +8,7 @@ async function obtenerMiembros() {
         document.getElementById('miembros').innerText = `${data.totalMembers} miembros`;
     } catch (error) {
         console.error('Error:', error);
-        document.getElementById('miembros').innerText = 'No se pudo obtener el número de miembros';
+        document.getElementById('miembros').innerText = 'Error';
     }
 }
 
